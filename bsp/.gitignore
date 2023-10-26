@@ -1,0 +1,10 @@
+*.sln 
+*.vcxproj*
+bin
+obj
+.vs 
+**/Debug
+**/Release
+.idea 
+.vscode 
+_testdata
