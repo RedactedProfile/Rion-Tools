@@ -44,7 +44,7 @@ int	FindMiptex (char *name)
 	strcpy (textureref[i].name, name);
 
 	// load the miptex to get the flags and values
-	sprintf (path, "%stextures/%s.wal", gamedir, name);
+	sprintf (path, "%stextures/%s.tga", gamedir, name);
 	if (TryLoadFile (path, (void **)&mt) != -1)
 	{
 		textureref[i].value = LittleLong (mt->value);

@@ -73,7 +73,7 @@ void CalcTextureReflectivity (void)
 			continue;
 
 		// load the wal file
-		sprintf (path, "%stextures/%s.wal", gamedir, texinfo[i].texture);
+		sprintf (path, "%stextures/%s.tga", gamedir, texinfo[i].texture);
 		if (TryLoadFile (path, (void **)&mt) == -1)
 		{
 			printf ("Couldn't load %s\n", path);
